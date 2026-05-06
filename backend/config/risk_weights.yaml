@@ -1,0 +1,42 @@
+# All scores are 0~1. Higher = higher risk.
+# Keys are category-oriented. Dataset/model names should stay inside adapter
+# implementation notes, not in the public risk equation.
+
+proxy_weights:
+  accident_proxy:
+    transport_context_risk: 0.35
+    speed_context_risk: 0.25
+    fatigue_risk: 0.20
+    attention_risk: 0.10
+    digital_overuse_risk: 0.10
+
+  mental_health_proxy:
+    mental_health_risk: 0.35
+    stress_risk: 0.20
+    social_isolation_score: 0.20
+    sleep_fatigue_risk: 0.15
+    digital_overuse_risk: 0.10
+
+  physical_health_proxy:
+    physical_health_risk: 0.45
+    activity_low_risk: 0.20
+    sedentary_risk: 0.15
+    sleep_fatigue_risk: 0.10
+    mobility_low_risk: 0.10
+
+total_risk_weights:
+  accident_proxy: 0.45
+  mental_health_proxy: 0.35
+  physical_health_proxy: 0.20
+
+transport_mode_risk:
+  still: 0.05
+  walking: 0.12
+  running: 0.20
+  bicycle: 0.42
+  electric_scooter: 0.55
+  bus: 0.25
+  tram: 0.20
+  train: 0.18
+  car: 0.65
+  unknown: 0.35

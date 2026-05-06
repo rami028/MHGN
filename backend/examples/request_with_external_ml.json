@@ -1,0 +1,26 @@
+{
+  "user_id": "demo-user-002",
+  "features": {
+    "sleep_duration_h": 7.2,
+    "sleep_efficiency": 0.88,
+    "screen_time_h": 5.0,
+    "steps": 8500,
+    "active_minutes": 75,
+    "transport_mode": "walking",
+    "speed_mean_kmh": 4.3,
+    "speed_max_kmh": 7.2
+  },
+  "ml_outputs": {
+    "social_isolation_score": 0.31,
+    "attention_productivity_risk": 0.27,
+    "attention_low_probability": 0.30,
+    "task_disturbance_probability": 0.25,
+    "stress_probability": 0.35,
+    "digital_overuse_model_risk": 0.44,
+    "mental_health_risk": 0.22,
+    "depression_probability": 0.22,
+    "activity_level_score": 0.74,
+    "physical_health_risk": 0.21,
+    "transport_context_risk": 0.12
+  }
+}
