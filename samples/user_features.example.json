@@ -1,0 +1,20 @@
+{
+  "total_screentime_hours": 7.2,
+  "time_spent_socialmedia_hours": 3.1,
+  "time_spent_game_hours": 0.5,
+  "last_phone_log_time_minutes": 1450,
+  "first_phone_log_time_minutes": 480,
+  "night_screentime_hours": 1.4,
+  "number_calls": 5,
+  "total_call_duration_minutes": 22.0,
+  "number_messages": 18,
+  "variance_call_duration": 4.2,
+  "mobility_time_hours": 1.0,
+  "resting_time_hours": 8.0,
+  "avg_sleep_time_hours": 7.0,
+  "var_sleep_time": 0.4,
+  "avg_heartrate_bpm": 75.0,
+  "var_heartrate": 8.0,
+  "number_steps": 6500,
+  "distance_traveled_km": 3.2
+}
